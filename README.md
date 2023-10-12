@@ -11,10 +11,13 @@ In this work, we propose the **generation exploitation attack**, an extremely si
 If you find our implementation and paper helpful, please consider citing our work:
 
 ```bibtex
-@article{ ...,
-    title={ .... },
-    author={... },
-    year={ 2023 },
+@misc{huang2023catastrophic,
+      title={Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation}, 
+      author={Yangsibo Huang and Samyak Gupta and Mengzhou Xia and Kai Li and Danqi Chen},
+      year={2023},
+      eprint={2310.06987},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
