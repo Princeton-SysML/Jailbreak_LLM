@@ -37,7 +37,7 @@ If you find our implementation and paper helpful, please consider citing our wor
 Our implementation was based on `transformers==4.32.1` and `torch==2.0.1`.
 ## Preparation
 
-Our attack is model-agnostic. To launch the attack on a specificed model, please download the model and insert/update its path in `configs.py`. The table below provides links to all models we used in the paper.
+Our attack is model-agnostic. To launch the attack on a specified model, please download the model and insert/update its path in `configs.py`. The table below provides links to all models we used in the paper.
 
 | Model             | Hugging Face Page                                        |
 | ----------------- | ------------------------------------------------------- |
