@@ -5,19 +5,17 @@ This is the official repository for ["Catastrophic Jailbreak of Open-source LLMs
 In this work, we propose the **generation exploitation attack**, an extremely simple approach that disrupts model alignment by only manipulating variations of generation methods. Check out our [project page](https://princeton-sysml.github.io/jailbreak-llm/) for more details and examples!
 
 <p align="center">
-  <img src="intro.png" width="95%">
+  <img src="intro.png" width="100%">
 </p>
 
 If you find our implementation and paper helpful, please consider citing our work:
 
 ```bibtex
-@misc{huang2023catastrophic,
-      title={Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation}, 
-      author={Yangsibo Huang and Samyak Gupta and Mengzhou Xia and Kai Li and Danqi Chen},
-      year={2023},
-      eprint={2310.06987},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{huang2023catastrophic,
+  title={Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation},
+  author={Huang, Yangsibo and Gupta, Samyak and Xia, Mengzhou and Li, Kai and Chen, Danqi},
+  journal={arXiv preprint arXiv:2310.06987},
+  year={2023}
 }
 ```
 
