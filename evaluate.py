@@ -192,7 +192,7 @@ def run(
             res, scorer, evaluator, n_sample, prompts, matching_only=matching_only
         )
         merged_df_greedy["greedy"] = res_best["evaluator_score"]
-        merged_df_greedy_text["default"] = res_best["output"]
+        merged_df_greedy_text["greedy"] = res_best["output"]
 
         break_by_greedy = (merged_df_greedy["greedy"] > 0.5).sum()
         summary["greedy"] = str(break_by_greedy)
